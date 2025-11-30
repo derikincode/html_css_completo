@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'BenguiatBold';
+    src: url('/4_TRIBUTO/Stranger-Things/font/Benguiat\ Bold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "StrangerThingsOutlined";
+  src: url('/4_TRIBUTO/Stranger-Things/font/Stranger\ Things\ Outlined.ttf') format("truetype");
+}
+
+/* Base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "BenguiatBold", sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+}
+
+/* Container principal */
+.container {
+  position: relative;
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 20px 50px;
+}
+
+/* Cabeçalho */
+.header {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.main-title {
+  color: red;
+  font-family: "StrangerThingsOutlined", sans-serif;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.main-paragraph {
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* Imagem destaque */
+.feature-image {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.banner-future-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Biografia */
+.biography-container {
+  margin: 25px 0;
+  padding: 25px 0;
+  border-bottom: 1px solid #fff;
+}
+
+.biography-container h2 {
+  margin-bottom: 10px;
+}
+
+/* Citações */
+.quotes-container {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+}
+
+.quotes-container h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.quotes-container blockquote {
+  margin: 10px 0;
+  font-style: italic;
+}
+
+/* Curiosidades */
+.curiosity-main {
+  margin: 25px 0 20px;
+  padding: 10px 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.curiosity-main h2 {
+  margin-top: 10PX;
+}
+
+.curiosity-main ul {
+  padding-left: 20px;
+}
+
+.curiosity-main li {
+  margin-bottom: 8px;
+}
+
