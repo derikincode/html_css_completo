@@ -1,16 +1,15 @@
-
 /* 4 - External */
 body {
-    padding-bottom: 500px;
+  padding-bottom: 500px;
 }
 
 h3 {
-    color: blue;
+  color: blue;
 }
 
-p {
+/* p {
     color: blueviolet;
-}
+} */
 
 /* Algum comentário */
 /* Mais um comentário */
@@ -18,15 +17,511 @@ p {
 
 /* classes */
 .paragraph {
-    background-color: black;
-    color: aqua;
-    padding: 5px;
+  background-color: black;
+  color: aqua;
+  padding: 5px;
 }
 
 /* IDs */
 #exclusive-title {
-    background-color: purple;
-    color: yellow;
-    padding: 10px;
-    font-size: 40px;
+  background-color: purple;
+  color: yellow;
+  padding: 10px;
+  font-size: 40px;
+}
+
+/* ordem das regras */
+h2 {
+  border-bottom: 2px solid red;
+}
+
+.titulo {
+  border-bottom: 3px solid green;
+}
+
+#algum-titulo {
+  border-bottom: 4px solid blue;
+}
+
+/* nome de cores */
+.color-name {
+  color: rgb(222, 49, 22);
+  background-color: lightgray;
+  padding: 5px;
+}
+
+/* HEx */
+.hex {
+  color: #55a398;
+}
+
+.hex-2 {
+  color: #00113d;
+}
+
+/* Aprofundando em hex */
+.simple-hex {
+  color: #333333;
+}
+
+.simple-hex-2 {
+  color: #333;
+}
+
+/* RGB */
+
+.rgb {
+  color: rgb(255, 0, 0);
+}
+
+.mixed-rgb {
+  color: rgb(20, 12, 500);
+}
+
+/* RGBA */
+.rgba {
+  color: rgba(255, 0, 0, 0.2);
+}
+
+/* HSL */
+.hsl {
+  color: hsl(100, 20%, 50%);
+}
+
+.hsl-2 {
+  color: hsl(200, 80%, 30%);
+}
+
+/* Backgound */
+.bg {
+  background-color: #000;
+  color: yellow;
+}
+
+.bg-2 {
+  background-color: rgb(200, 20, 40);
+  color: #00eaff;
+}
+
+/* background-opacity */
+.bg-opacity {
+  background-color: green;
+  opacity: 0.2;
+}
+
+.bg-opacity-2 {
+  background-color: #999;
+  color: black;
+  opacity: 0.8;
+}
+
+/* rgba com opacidade */
+.rgba-opacity {
+  background-color: rgba(90, 100, 200, 0.2);
+  color: black;
+}
+
+/* bg image */
+.bg-image {
+  background-image: url("../img/nature.jpg");
+  padding: 10px;
+  color: white;
+}
+
+/* Centralizando bg img */
+.not-centered-bg,
+.centered-bg {
+  height: 400px;
+  width: 400px;
+  background-image: url("../img/bridge.jpg");
+}
+
+.centered-bg {
+  background-position: center;
+  background-size: cover;
+}
+
+/* largura e altura */
+.heigh-width {
+  height: 200px;
+  width: 100px;
+  background-color: orange;
+}
+
+.heigh-width-2 {
+  height: 300px;
+  background-color: purple;
+}
+
+/* padding */
+.without-padding,
+.padding {
+  background-color: black;
+  color: white;
+}
+
+.padding {
+  background-color: green;
+  padding: 20px;
+}
+
+/* padding individual */
+
+.padding-individual {
+  background-color: #222;
+  color: #fff;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+/* Shorthand padding */
+.shorthand-padding {
+  background-color: #0fd89c9a;
+  padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding-2 {
+  background-color: #074dff5c;
+  padding: 10px 20px;
+  /* padding: 10px 20px 10px 20px; */
+}
+
+/* Padding com width */
+.without-border-box {
+  background-color: #444;
+  color: white;
+  width: 400px;
+  padding: 50px;
+}
+
+.border-box {
+  background-color: #ff0404;
+  color: white;
+  width: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+/* Border */
+.border {
+  border: 5px solid black;
+  padding: 10px;
+}
+
+.border-2 {
+  border: 3px dotted rgb(255, 179, 0);
+  padding: 25px;
+}
+
+/* Borda individual */
+.border-left {
+  border-left: 3px solid red;
+  padding: 25px;
+  color: white;
+  background-color: #222;
+}
+
+.border-bottom {
+  border-bottom: 5px double #399;
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+
+/* Borda arredondada */
+.rounded-p {
+  border: 4px solid blue;
+  background-color: black;
+  color: white;
+  padding: 25px;
+  border-radius: 15px;
+}
+.rounded-p-2 {
+  background-color: #222;
+  color: white;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+/* margem */
+.margin {
+  color: white;
+  margin: 10px;
+  background-color: #000;
+}
+
+.margin-top {
+  color: white;
+  margin-top: 50px;
+  background-color: black;
+  padding: 10px;
+}
+
+.margin-shorthand {
+  color: white;
+  background-color: black;
+  margin: 5px 10px 15px 20px;
+}
+
+/* Box model */
+.box-model {
+  margin: 200px;
+  padding: 15px 25px;
+  border: 3px solid red;
+  border-radius: 7px;
+  width: 200px;
+  height: 100px;
+}
+
+/* Desafio 3 */
+#box-model-challenge {
+  margin: 15px;
+  padding: 15px;
+  border: 5px solid #459;
+  outline: 5px solid #952;
+  background-color: #123;
+}
+
+.challenge-title {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+/* Text align */
+.text-aligned {
+  text-align: right;
+}
+
+.container-center {
+  text-align: center;
+  width: 300px;
+  border: 1px solid red;
+}
+
+#painel,
+#painel-2 {
+  border-bottom: 1px solid #ec0303;
+}
+
+.container-center-2 {
+  text-align: center;
+  width: 200px;
+  border: 2px solid blue;
+}
+
+/* Text decoretion */
+.underline {
+  text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.remove-underline {
+  text-decoration: none;
+  color: rgb(255, 13, 0);
+}
+
+/* text trasform */
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+/* letter spacing */
+.spacing {
+  letter-spacing: 7px;
+}
+
+/* Fontes */
+.serif {
+  font-family: Georgia;
+}
+
+.sans-serif {
+  font-family: Helvetica;
+}
+
+.monospace {
+  font-family: "Courier Nwe";
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.fantasy {
+  font-family: fantasy;
+}
+
+/* Text style */
+.italic {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+/* Font weight */
+.thin,
+.bold,
+.bolder {
+  font-family: Helvetica;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.bold {
+  font-weight: 600;
+}
+.bolder {
+  font-weight: 900;
+}
+
+/* Font size */
+.small {
+  font-size: small;
+}
+
+.big {
+  font-size: 50px;
+}
+
+/* Display */
+
+.inline-box {
+  width: 50px;
+  height: 50px;
+  background-color: #4f8;
+  margin: 10px;
+  display: inline-block;
+}
+
+.block {
+  background-color: red;
+  color: white;
+  margin: 10px;
+  display: block;
+}
+
+/* static */
+.static {
+  position: static;
+  background-color: #00eaff;
+  color: red;
+  width: 100px;
+  height: 100px;
+}
+
+/* Relative */
+.relative {
+  position: relative;
+  background-color: rebeccapurple;
+  color: white;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  left: 40px;
+}
+
+/* Absolute */
+.absolute {
+  position: absolute;
+  background-color: #000;
+  color: white;
+  width: 100px;
+  height: 100px;
+  top: 2px;
+  right: 2px;
+}
+
+/* Absolute e relative */
+.relative-container {
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+  margin-top: 120px;
+  position: relative;
+}
+
+.absolute-1,
+.absolute-2 {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  position: absolute;
+}
+
+.absolute-1 {
+  top: 10px;
+  left: 10px;
+}
+
+.absolute-2 {
+  bottom: 10px;
+  right: 10px;
+}
+
+/* Fixed */
+.fixed {
+  background-color: gold;
+  border: 1px solid red;
+  color: white;
+  width: 100x;
+  height: 100px;
+  margin-top: 120px;
+  position: fixed;
+  top: 50px;
+  right: 100px;
+}
+
+/* sticky */
+.sticky {
+  background-color: gold;
+  border: 1px solid rgb(17, 255, 0);
+  color: white;
+  width: 100x;
+  height: 100px;
+  position: sticky;
+  top: 50px;
+}
+
+/* z index */
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+  width: 50px;
+  height: 50px;
+  background-color: #123;
+  position: absolute;
+}
+
+.absolute-3 {
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.absolute-4 {
+  top: 10px;
+  left: 10px;
+  background-color: green;
+  z-index: 20;
+}
+
+.absolute-5 {
+  top: 40px;
+  left: 40px;
+  background-color: red;
+  z-index: 1;
 }
